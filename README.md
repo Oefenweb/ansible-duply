@@ -17,6 +17,10 @@ Set up [duply](http://duply.net/), a shell front-end for the mighty [duplicity](
 
 None
 
+## Recommended
+
+* `ansible-duplicity` ([see](https://github.com/Oefenweb/ansible-duplicity), when `duply_install` is `[]` or to get the latest version of `duplicity`)
+
 #### Example
 
 ```yaml

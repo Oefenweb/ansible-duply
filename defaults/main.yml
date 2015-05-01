@@ -1,0 +1,4 @@
+---
+# defaults file for duply
+duply_install: []
+duply_install_dir: /usr/local/bin

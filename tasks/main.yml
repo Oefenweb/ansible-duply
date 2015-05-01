@@ -1,0 +1,21 @@
+---
+# tasks file for duply
+- name: install
+  apt:
+    name: "{{ item }}"
+    state: latest
+    update_cache: true
+    cache_valid_time: 3600
+  with_items: duply_install
+  when: duply_install
+  tags: [configuration, duply, duply-install]
+
+- name: install
+  get_url:
+    url: http://duply.net/tmp/duply.sh
+    dest: "{{ duply_install_dir }}/duply"
+    force: true
+    owner: root
+    group: root
+    mode: 0755
+  tags: [configuration, duply, duply-install]

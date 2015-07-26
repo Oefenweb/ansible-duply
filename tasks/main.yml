@@ -12,7 +12,7 @@
 
 - name: install
   get_url:
-    url: http://duply.net/tmp/duply.sh
+    url: http://sourceforge.net/p/ftplicity/code/43/tree/duply/trunk/duply.sh?format=raw
     dest: "{{ duply_install_dir }}/duply"
     force: true
     owner: root

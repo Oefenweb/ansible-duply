@@ -1,4 +1,5 @@
----
 # defaults file for duply
+---
+duply_version: 1.9.3dev
 duply_install: []
 duply_install_dir: /usr/local/bin

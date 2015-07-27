@@ -1,5 +1,5 @@
----
 # tasks file for duply
+---
 - name: install
   apt:
     name: "{{ item }}"

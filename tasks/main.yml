@@ -12,7 +12,7 @@
 
 - name: install
   get_url:
-    url: http://duply.net/tmp/duply.sh
+    url: "https://raw.githubusercontent.com/Oefenweb/duply/{{ duply_version }}/duply.sh"
     dest: "{{ duply_install_dir }}/duply"
     force: true
     owner: root

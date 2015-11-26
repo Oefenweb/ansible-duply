@@ -10,7 +10,7 @@ Set up [duply](http://duply.net/), a shell front-end for the mighty [duplicity](
 
 #### Variables
 
-* `duply_version`: [default: `1.9.3dev`]: Duply [version](https://github.com/Oefenweb/duply/releases) to install
+* `duply_version`: [default: `1.11`]: Duply [version](https://github.com/Oefenweb/duply/releases) to install
 * `duply_install`: [default: `[]`]: Additional packages to install (e.g. `duplicity`)
 * `duply_install_dir` [default: `/usr/local/bin`]: Install directory
 
@@ -28,7 +28,7 @@ None
 ---
 - hosts: all
   roles:
-  - duply
+    - duply
 ```
 
 #### License

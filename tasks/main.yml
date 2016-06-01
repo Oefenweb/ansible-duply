@@ -6,8 +6,11 @@
     state: latest
     update_cache: true
     cache_valid_time: "{{ apt_update_cache_valid_time | default(3600) }}"
-  with_items: duply_install
-  tags: [configuration, duply, duply-install]
+  with_items: "{{ duply_install }}"
+  tags:
+    - configuration
+    - duply
+    - duply-install
 
 - name: install
   get_url:
@@ -17,4 +20,7 @@
     owner: root
     group: root
     mode: 0755
-  tags: [configuration, duply, duply-install]
+  tags:
+    - configuration
+    - duply
+    - duply-install

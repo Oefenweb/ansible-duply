@@ -1,5 +1,5 @@
 # defaults file for duply
 ---
-duply_version: '1.11.2'
+duply_version: '2.0.1'
 duply_install: []
 duply_install_dir: /usr/local/bin

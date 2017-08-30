@@ -1,6 +1,6 @@
 ## duply
 
-[![Build Status](https://travis-ci.org/Oefenweb/ansible-duply.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-duply) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-duply-blue.svg)](https://galaxy.ansible.com/list#/roles/3585)
+[![Build Status](https://travis-ci.org/Oefenweb/ansible-duply.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-duply) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-duply-blue.svg)](https://galaxy.ansible.com/tersmitten/duply)
 
 Set up [duply](http://duply.net/), a shell front-end for the mighty [duplicity](http://duplicity.nongnu.org/).
 
@@ -10,7 +10,7 @@ Set up [duply](http://duply.net/), a shell front-end for the mighty [duplicity](
 
 #### Variables
 
-* `duply_version`: [default: `2.0.1`]: Duply [version](https://github.com/Oefenweb/duply/releases) to install
+* `duply_version`: [default: `2.0.3`]: Duply [version](https://github.com/Oefenweb/duply/releases) to install
 * `duply_install`: [default: `[]`]: Additional packages to install (e.g. `duplicity`)
 * `duply_install_dir` [default: `/usr/local/bin`]: Install directory
 

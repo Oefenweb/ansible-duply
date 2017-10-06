@@ -16,7 +16,7 @@ galaxy_info:
       versions:
         - wheezy
         - jessie
-        - strech
+        - stretch
   galaxy_tags:
     - system
 dependencies: []

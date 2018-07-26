@@ -1,6 +1,6 @@
 ## duply
 
-[![Build Status](https://travis-ci.org/Oefenweb/ansible-duply.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-duply) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-duply-blue.svg)](https://galaxy.ansible.com/tersmitten/duply)
+[![Build Status](https://travis-ci.org/Oefenweb/ansible-duply.svg?branch=master)](https://travis-ci.org/Oefenweb/ansible-duply) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-duply-blue.svg)](https://galaxy.ansible.com/Oefenweb/duply)
 
 Set up [duply](http://duply.net/), a shell front-end for the mighty [duplicity](http://duplicity.nongnu.org/).
 

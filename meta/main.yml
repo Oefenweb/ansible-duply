@@ -1,6 +1,7 @@
 # meta file for duply
 ---
 galaxy_info:
+  role_name: duply
   author: Mischa ter Smitten
   company: Oefenweb.nl B.V.
   description: Set up duply, a shell front-end for the mighty duplicity
@@ -12,6 +13,7 @@ galaxy_info:
         - precise
         - trusty
         - xenial
+        - bionic
     - name: Debian
       versions:
         - wheezy

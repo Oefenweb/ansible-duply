@@ -1,4 +1,4 @@
-# tasks file for duply
+# tasks file
 ---
 - name: install
   apt:

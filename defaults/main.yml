@@ -1,4 +1,4 @@
-# defaults file for duply
+# defaults file
 ---
 duply_version: 2.2.2
 duply_install: []

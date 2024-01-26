@@ -1,5 +1,5 @@
 # defaults file
 ---
-duply_version: 2.2.2
+duply_version: 2.5.2
 duply_install: []
 duply_install_dir: /usr/local/bin
